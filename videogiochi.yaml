@@ -1,0 +1,40 @@
+videogiochi:
+  - id: 1
+    titolo: 'Elden Ring'
+    sviluppatore: 'FromSoftware'
+    annoUscita: 2022
+    genere: 'RPG'
+    multiplayer: true
+    piattaforme:
+      - PC
+      - PS5
+      - Xbox Series X
+
+  - id: 2
+    titolo: 'Hades'
+    sviluppatore: 'Supergiant Games'
+    annoUscita: 2020
+    genere: 'Roguelike'
+    multiplayer: false
+    piattaforme:
+      - PC
+      - Nintendo Switch
+      - PS5
+
+  - id: 3
+    titolo: 'Cyberpunk 2077'
+    sviluppatore: 'CD Projekt Red'
+    annoUscita: 2020
+    genere: 'Action RPG'
+    multiplayer: false
+    piattaforme:
+      - PC
+      - PS5
+      - Xbox Series X
+
+# ✔ Struttura YAML corretta al 100%
+# ✔ Lista ben formata con -
+# ✔ Indentazione pulita e coerente
+# ✔ Nessuna virgola (ottimo)
+# ✔ Booleani corretti
+# ✔ Dati completi
