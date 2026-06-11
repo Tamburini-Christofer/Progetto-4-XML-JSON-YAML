@@ -1,2 +1,61 @@
+<!--! <?xml ... ?> Indica che il file è un documento XML.-->
+<!--? I caratteri <? e ?> delimitano una processing instruction, cioè un'informazione destinata al parser XML.-->
+
+<!--! version="1.0" Specifica quale versione dello standard XML viene utilizzata.-->
+
+<!--! encoding="UTF-8" Specifica come sono codificati i caratteri nel file.-->
+<!--? UTF-8 permette di rappresentare: lettere accentate (à, è, ì), simboli (€, ©), emoji (😀), caratteri di quasi tutte le lingue del mondo-->
+
+<!--! il tag videogiochi rappresenta la root-->
+
+<?xml version="1.0" encoding="UTF-8"?>
 <videogiochi>
+    <gioco id="1">
+        <titolo>Elden Ring</titolo>
+        <sviluppatore>FromSoftware</sviluppatore>
+        <annoUscita>2022</annoUscita>
+        <genere>RPG</genere>
+        <multiplayer>true</multiplayer>
+        <piattaforme>
+            <piattaforma>PC</piattaforma>
+            <piattaforma>PS5</piattaforma>
+            <piattaforma>Xbox Series X</piattaforma>
+        </piattaforme>
+    </gioco>
+
+    <gioco id="2">
+        <titolo>Hades</titolo>
+        <sviluppatore>Supergiant Games</sviluppatore>
+        <annoUscita>2020</annoUscita>
+        <genere>Roguelike</genere>
+        <multiplayer>false</multiplayer>
+        <piattaforme>
+            <piattaforma>PC</piattaforma>
+            <piattaforma>Nintendo Switch</piattaforma>
+            <piattaforma>PS5</piattaforma>
+        </piattaforme>
+    </gioco>
+
+    <gioco id="3">
+        <titolo>Cyberpunk 2077</titolo>
+        <sviluppatore>CD Projekt Red</sviluppatore>
+        <annoUscita>2020</annoUscita>
+        <genere>Action RPG</genere>
+        <multiplayer>false</multiplayer>
+        <piattaforme>
+            <piattaforma>PC</piattaforma>
+            <piattaforma>PS5</piattaforma>
+            <piattaforma>Xbox Series X</piattaforma>
+        </piattaforme>
+    </gioco>
 </videogiochi>
+
+<!-- Hai rispettato tutti i requisiti:
+
+✅ Nodo radice <videogiochi>
+✅ Tre nodi <gioco>
+✅ id come attributo
+✅ Tutti i campi richiesti presenti
+✅ Liste di piattaforme strutturate correttamente
+✅ Tag aperti e chiusi correttamente
+✅ Indentazione pulita e leggibile -->
