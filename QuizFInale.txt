@@ -1,0 +1,39 @@
+Quale formato è più leggibile per un essere umano?
+
+    Il linguaggio più leggibile da un essere umano è YAML
+
+        Soluzione: Corretto
+
+----------------------------------------------------------
+
+Quale formato viene usato più spesso nelle API REST?
+
+    Il linguaggio più spesso usato nelle API REST è JSON
+
+        Soluzione: Corretto
+
+----------------------------------------------------------
+
+Qual è il vantaggio principale degli attributi in XML?
+
+    Nessuna risposta
+
+        Soluzione: Gli attributi permettono di aggiungere metadati agli elementi in modo compatto e senza creare nuovi tag
+
+----------------------------------------------------------
+
+In YAML come viene rappresentato un array?
+
+    Tramite delle liste
+
+        Soluzione: Con il simbolo "-" davanti a ogni elemento
+
+----------------------------------------------------------
+
+XML supporta tag personalizzati? Perché è utile?
+
+    Perchè possono essere importati in programmi esterni come Excel per creare tabelle personalizzate
+    
+        Soluzione: XML supporta tag personalizzati perché è un linguaggio estensibile, quindi puoi creare strutture su misura per qualsiasi tipo di dato.
+
+----------------------------------------------------------
