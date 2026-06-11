@@ -1,0 +1,43 @@
+{
+  "videogiochi": [
+    {
+      "id": 1,
+      "titolo": "Elden Ring",
+      "sviluppatore": "FromSoftware",
+      "annoUscita": 2022,
+      "genere": "RPG",
+      "multiplayer": true,
+      "piattaforme": ["PC", "PS5", "Xbox Series X"]
+    },
+
+    {
+      "id": 2,
+      "titolo": "Hades",
+      "sviluppatore": "Supergiant Games",
+      "annoUscita": 2020,
+      "genere": "Roguelike",
+      "multiplayer": false,
+      "piattaforme": ["PC", "Nintendo Switch", "PS5"]
+    },
+
+    {
+      "id": 3,
+      "titolo": "Cyberpunk 2077",
+      "sviluppatore": "CD Projekt Red",
+      "annoUscita": 2020,
+      "genere": "Action RPG",
+      "multiplayer": false,
+      "piattaforme": ["PC", "PS5", "Xbox Series X"]
+    }
+  ]
+}
+
+"Il tuo JSON è valido e rispetta tutti i requisiti dell'esercizio:
+
+✅ Proprietà principale videogiochi
+✅ Array di oggetti
+✅ Ogni videogioco contiene tutti i campi richiesti
+✅ Booleani corretti (true e false, senza virgolette)
+✅ Array piattaforme corretto
+✅ Virgole posizionate correttamente
+✅ Sintassi JSON valida"
